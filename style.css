@@ -1,0 +1,61 @@
+/* Page Setup and Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 40px;
+    color: #333333;
+}
+
+/* Page Title Heading */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Core Table Structural Layout */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse; /* Collapses cell borders into a single solid clean line */
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Soft outer drop shadow */
+    border-radius: 8px;
+    overflow: hidden; /* Keeps sharp row corners rounded inside the card container shadow */
+    font-size: 16px;
+}
+
+/* Header Cells styling */
+table th {
+    background-color: #16a085; /* Deep teal header block */
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 15px;
+}
+
+/* Body Data Cells styling */
+table td {
+    padding: 14px 15px;
+    color: #4a5568;
+    border-bottom: 1px solid #e2e8f0; /* Crisp thin row separators */
+}
+
+/* Clean Row Alignment Rules */
+table th, 
+table td {
+    text-align: center; /* Evenly centers numbers, text values, and names */
+}
+
+/* Alternating Background Striping (Zebra Effect) */
+table tbody tr:nth-of-type(even) {
+    background-color: #f8fafc;
+}
+
+/* Interactive Hover Feedback Effect */
+table tbody tr:hover {
+    background-color: #f1f5f9;
+    cursor: pointer;
+}
